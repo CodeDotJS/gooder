@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="/home/rishi/NPM/Current/gooder/media/3.png" alt="GOODER" width="400">
+<img href="media/3.png" alt="GOODER" width="400">
 
 </h1>
 
