@@ -1,0 +1,44 @@
+{
+  "name": "gooder",
+  "version": "1.0.1",
+  "description": "NodeJS API which provides direct link to download files available on google drive if they are shared publicly.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codedotjs/gooder.git"
+  },
+  "author": "Rishi Giri <rushforlinux@gmail.com> (rishigiri.com)",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+  "google",
+  "drive",
+  "google-drive",
+  "media",
+  "public-media",
+  "shared",
+  "download",
+  "link",
+  "extrat",
+  "direct-link"
+  ],
+  "dependencies": {
+    "pinkie-promise": "^2.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/codedotjs/gooder/issues"
+  },
+  "homepage": "https://github.com/codedotjs/gooder#readme",
+  "main": "index.js"
+}
