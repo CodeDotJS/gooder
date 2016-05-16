@@ -55,13 +55,13 @@ gooder('privateDriveURL').then(directLink => {
 
 ## Related
 
-- [GOODER-CLI](https://github.com/CodeDotJS/gooder-cli) : CLI Tool to download google drive media.
+- [gooder-cli](https://github.com/CodeDotJS/gooder-cli) : CLI Tool based on this API to download google drive media.
 
-- [IMAGE-OF](https://github.com/CodeDotJS/image-of) : Download facebook profile picture of any user.
+- [image-of](https://github.com/CodeDotJS/image-of) : Download facebook profile picture of any user.
 
-- [INSTAVIM](https://github.com/CodeDotJS/instavim) : Complete media downloader for Instagram.
+- [instavim](https://github.com/CodeDotJS/instavim) : Complete media downloader for Instagram.
 
-- [GRAVATAR-OF](https://github.com/CodeDotJS/gravatar-of) : Download gravatar profile of any user using his/her e-mail.
+- [gravatar-of](https://github.com/CodeDotJS/gravatar-of) : Download gravatar profile of any user using his/her e-mail.
 
 ## License
 
