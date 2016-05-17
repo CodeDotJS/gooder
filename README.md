@@ -6,7 +6,7 @@
 <h5 align="center">NodeJS API which provides direct link to download files available on google drive if they are shared publicly.</h5>
 
 <h1 align="center">
-<img src="https://travis-ci.org/CodeDotJS/twifo.svg?branch=master">
+<img src="https://travis-ci.org/CodeDotJS/gooder.svg?branch=master">
 </h1>
 
 ## Install
