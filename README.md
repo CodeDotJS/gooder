@@ -49,6 +49,20 @@ console.log(getURL);
 
 ```
 
+## Example
+
+```js
+
+const gooder = require('gooder');
+
+const getURL = gooder('https://drive.google.com/file/d/0B3vyNXp6qDWwbXlwZllTd3BuUlk/edit?usp=sharing'));
+
+console.log(getURL);
+
+	// => https://googledrive.com/host/0B3vyNXp6qDWwbXlwZllTd3BuUlk
+
+```
+
 ## TODO
 
 ```
