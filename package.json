@@ -1,7 +1,7 @@
 {
   "name": "gooder",
-  "version": "1.0.1",
-  "description": "NodeJS API which provides direct link to download files available on google drive if they are shared publicly.",
+  "version": "1.0.0",
+  "description": "An API to provide direct download link of publicly shared files on Google Drive",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -18,16 +18,16 @@
     "index.js"
   ],
   "keywords": [
-  "google",
-  "drive",
-  "google-drive",
-  "media",
-  "public-media",
-  "shared",
-  "download",
-  "link",
-  "extrat",
-  "direct-link"
+    "google",
+    "drive",
+    "google-drive",
+    "media",
+    "public-media",
+    "shared",
+    "download",
+    "link",
+    "extrat",
+    "direct-link"
   ],
   "dependencies": {
     "pinkie-promise": "^2.0.0"

@@ -3,7 +3,7 @@
 
 </h1>
 
-<h5 align="center">NodeJS API which provides direct link to download files available on google drive if they are shared publicly.</h5>
+<h5 align="center">An API to provide direct download link of publicly shared files on Google Drive.</h5>
 
 <h1 align="center">
 <img src="https://travis-ci.org/CodeDotJS/gooder.svg?branch=master">
