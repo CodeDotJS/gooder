@@ -29,9 +29,7 @@
     "extrat",
     "direct-link"
   ],
-  "dependencies": {
-    "pinkie-promise": "^2.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "ava": "*",
     "xo": "*"
