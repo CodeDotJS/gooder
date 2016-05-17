@@ -1,7 +1,5 @@
 'use strict';
 
-var Promise = require('pinkie-promise');
-
 function urlAuth(getLink) {
 	var query = 'drive.google.com';
 
@@ -34,14 +32,12 @@ function getKey(checkURL) {
 
 module.exports = function (driveLink) {
 	if (typeof driveLink !== 'string') {
-		return Promise.reject(new Error('Link required'));
+		return 'Link required';
 	}
 
 	if (urlAuth(driveLink) === false) {
-		return Promise.reject(new Error('Link associated with private google drive.'));
+		return 'Link associated with private google drive.';
 	}
 
-	if (typeof driveLink === 'string' || urlAuth(driveLink) === true) {
-		return getKey(driveLink);
-	}
+	return getKey(driveLink);
 };
