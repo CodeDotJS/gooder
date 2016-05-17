@@ -20,29 +20,33 @@ $ npm install --save gooder
 __CASE : 1__
 
 ```js
+
 'use strict';
 
 const gooder = require('gooder');
 
-gooder('publicDriveURL').then(directLink => {
-	console.log(directLink);
+const getURL = gooder('public url');
 
-	// => direct link to download file
-});
+console.log(getURL);
+
+	// => 'direct link to download file'
+
 ```
 
 __CASE : 2__
 
 ```js
+
 'use strict';
 
 const gooder = require('gooder');
 
-gooder('privateDriveURL').then(directLink => {
-	console.log(directLink);
+const getURL = gooder('private url')
 
-	// => Sorry! The dirve is not shared publically.
-})
+console.log(getURL);
+
+	// => 'Link associated with private google drive'
+
 ```
 
 ## TODO
