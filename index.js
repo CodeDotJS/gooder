@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 'use strict';
 
 var Promise = require('pinkie-promise');
@@ -44,8 +42,6 @@ module.exports = function (driveLink) {
 	}
 
 	if (typeof driveLink === 'string' || urlAuth(driveLink) === false) {
-		return getKey(driveLink) || 'Link associated with private google drive';
+		return getKey(driveLink);
 	}
-
-	return null;
 };
