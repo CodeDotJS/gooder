@@ -41,7 +41,7 @@ module.exports = function (driveLink) {
 		return Promise.reject(new Error('Link associated with private google drive.'));
 	}
 
-	if (typeof driveLink === 'string' || urlAuth(driveLink) === false) {
+	if (typeof driveLink === 'string' || urlAuth(driveLink) === true) {
 		return getKey(driveLink);
 	}
 };
