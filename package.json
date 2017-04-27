@@ -9,7 +9,7 @@
   },
   "author": "Rishi Giri <rushforlinux@gmail.com> (rishigiri.com)",
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
   "scripts": {
     "test": "xo && ava"

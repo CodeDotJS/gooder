@@ -1,13 +1,8 @@
-<h1 align="center">
-<img src="media/3.png" alt="GOODER" width="400">
+# gooder
 
-</h1>
+> Get direct downloadable link to the publically shared media on google drive.
 
-<h5 align="center">An API to provide direct download link of publicly shared files on Google Drive.</h5>
-
-<h1 align="center">
-<img src="https://travis-ci.org/CodeDotJS/gooder.svg?branch=master">
-</h1>
+[![Build Status](https://travis-ci.org/CodeDotJS/gooder.svg?branch=master)](https://travis-ci.org/CodeDotJS/gooder)
 
 ## Install
 
@@ -15,71 +10,26 @@
 $ npm install --save gooder
 ```
 
-## Usage
-
-__CASE : 1__
+### Usage
 
 ```js
-
-'use strict';
-
 const gooder = require('gooder');
 
-const getURL = gooder('public url');
-
-console.log(getURL);
-
-	// => 'direct link to download file'
-
+console.log(gooder('url'));
 ```
 
-__CASE : 2__
+__`Example`__
 
 ```js
+console.log(gooder('https://docs.google.com/file/d/0BxbU2MT68i0cTW9vQzY5QUxwNm8/view'));
 
-'use strict';
-
-const gooder = require('gooder');
-
-const getURL = gooder('private url')
-
-console.log(getURL);
-
-	// => 'Link associated with private google drive'
-
-```
-
-## Example
-
-```js
-
-const gooder = require('gooder');
-
-const getURL = gooder('https://drive.google.com/file/d/0B3vyNXp6qDWwbXlwZllTd3BuUlk/edit?usp=sharing'));
-
-console.log(getURL);
-
-	// => https://googledrive.com/host/0B3vyNXp6qDWwbXlwZllTd3BuUlk
-
-```
-
-## TODO
-
-```
-❱ Extracting direct download link for public gdrives  :   ✔
-
-❱ Extracting direct download link for private drives  :   ✖
+// => https://googledrive.com/host/0BxbU2MT68i0cTW9vQzY5QUxwNm8
 ```
 
 ## Related
 
-- [gooder-cli](https://github.com/CodeDotJS/gooder-cli) : CLI Tool based on this API to download google drive media.
+- __[`gooder-cli`](https://github.com/CodeDotJS/gooder-cli)__ : `Download publically shared media from google drive with ease`
 
-- [image-of](https://github.com/CodeDotJS/image-of) : Download facebook profile picture of any user.
-
-- [instavim](https://github.com/CodeDotJS/instavim) : Complete media downloader for Instagram.
-
-- [gravatar-of](https://github.com/CodeDotJS/gravatar-of) : Download gravatar profile of any user using his/her e-mail.
 
 ## License
 
