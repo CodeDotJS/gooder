@@ -1,6 +1,6 @@
 {
   "name": "gooder",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An API to provide direct download link of publicly shared files on Google Drive",
   "license": "MIT",
   "repository": {
